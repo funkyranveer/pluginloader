@@ -1,0 +1,25 @@
+package me.floader.java;
+
+import org.bukkit.Bukkit;
+import org.bukkit.plugin.java.JavaPlugin;
+
+public class loader extends JavaPlugin{
+
+    public void onEnable(){
+        System.out.println("==========[Loader]==========");
+        System.out.println("Enabled: True               ");
+        System.out.println("==========[Loader]==========");
+
+
+        }
+        public void onDisable(){
+        System.out.println("==========[Loader]==========");
+        System.out.println("Enabled: False              ");
+        System.out.println("==========[Loader]==========");
+
+    }
+}
+
+
+
+
